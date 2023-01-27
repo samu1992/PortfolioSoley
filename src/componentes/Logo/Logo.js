@@ -1,11 +1,11 @@
-import logo from './LOGO.svg';
+import logo from '../../image/logo.svg';
 import './Logo.css';
 
 const Logo = () => {
     return (
-        <header className="App-header">
+        <section className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        </section>
     )
 }
 

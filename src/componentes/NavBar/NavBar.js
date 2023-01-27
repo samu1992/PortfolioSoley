@@ -1,26 +1,28 @@
 import './NavBar.css'
-import logo from './LOGO.svg';
+import { useState } from 'react';
+import logo from '../../image/logo.svg';
 import { Link } from 'react-router-dom';
 import resume from './soleyflores.pdf'
 
 
 const NavBar = () => {
+const [menuOpen, setMenuOpen] = useState(false);
 return (
     <header className='container_nav'>
         <div className="logo"><Link to='/'><img src={logo} alt='logo'/></Link></div>
-        <div className='container_nav--links'>
+        <nav className='container_nav--links'>
             <ul>
                 <li><Link to='/About'>About</Link></li>
                 <li><a target='_blank' rel='noreferrer' href={resume}>Resume</a></li>
                 <li><a target="_blank" rel='noreferrer' href='http://www.linkedin.com/in/soleyflores'>LinkedIn</a></li>
             </ul>
-        </div>
-        <Link to='#' class="fa-solid fa-grip-lines lines"/>
-        <div className='menu_responsive' id='responsive'>
+        </nav>
+        <Link to='#' className="fa-solid fa-grip-lines lines" onClick={() => setMenuOpen(!menuOpen)}/>
+        <nav className={`navbar--responsive ${menuOpen ? 'navbar--open' : 'navbar--closed'}`}>
                 <Link  to='/About'>About</Link>
                 <a target='_blank' rel='noreferrer' href={resume}>Resume</a>
                 <a target="_blank" rel='noreferrer' href='http://www.linkedin.com/in/soleyflores'>LinkedIn</a>
-            </div>
+            </nav>
     </header>
 )
 }
