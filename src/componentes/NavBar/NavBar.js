@@ -9,7 +9,7 @@ const NavBar = () => {
 const [menuOpen, setMenuOpen] = useState(false);
 return (
     <header className='container_nav'>
-        <div className="logo"><Link to='/'><img src={logo} alt='logo'/></Link></div>
+        <div className="logo"><Link to='/'><img src={logo} alt='error en cargar el logo de mi portfolio'/></Link></div>
         <nav className='container_nav--links'>
             <ul>
                 <li><Link to='/About'>About</Link></li>

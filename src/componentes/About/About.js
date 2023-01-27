@@ -9,7 +9,7 @@ const About = () => {
     return (
         <main className='container_about'>
             <section className='container_about--p1 parrafo'>
-                <img src={me} alt='miFoto' />
+                <img src={me} alt='error en cargar mi foto (soley-flores)' />
                 <p><strong>Soley Flores</strong> is a Venezuelan UX/UI Designer based in Buenos Aires,
                     Argentina, and, yes, she does have an accent (according to her friends) that still hasn't
                     stopped her from speaking English.</p>
@@ -20,7 +20,7 @@ const About = () => {
                     being a spinning instructor, serving at restaurants, providing customer services, and designing
                     graphics for a friend's brand. All these experiences allowed her to diversify her outlook, build
                     more empathy toward users and pay attention to details.</p>
-                <img src={me1} alt='miFoto' />
+                <img src={me1} alt='error en cargar mi foto (soley-flores)' />
             </section>
             <section className='container_about--p3 parrafo'>
                 <p> As a UX/UI Designer, she has a solid understanding of the design process, including research, wireframing,
@@ -30,9 +30,9 @@ const About = () => {
                     designs that are intuitive, easy to use, and accessible.</p>
             </section>
             <section className='container_about--p4 parrafo'>
-                <img src={pino} alt='miFoto' />
-                <img src={flores} alt='miFoto' />
-                <img src={menta} alt='miFoto' />
+                <img src={pino} alt='error en cargar la foto de mi perro' />
+                <img src={flores} alt='error en cargar imagen de flores' />
+                <img src={menta} alt='error en cargar la foto de mi perro' />
             </section>
             <section className='container_about--p5 parrafo'>
                 <h4>Fun facts!</h4>

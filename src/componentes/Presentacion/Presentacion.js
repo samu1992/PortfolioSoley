@@ -8,7 +8,7 @@ const Presentacion = () => {
                 <p>Hello! My name is<br /><br/> <strong>Soley Flores</strong><br /><br/> A UX/UI Designer enthusiastic about creating attractive
                     UI’s while finding the balance between impact and usability.</p>
             </section>
-            <div className='container_presentation--svg'><img src={img} alt='img' /></div>
+            <div className='container_presentation--svg'><img src={img} alt='error en cargar mi foto personal' /></div>
         </aside>
     )
 }
