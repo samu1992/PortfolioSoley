@@ -26,15 +26,7 @@
     padding: 0px;
     flex-direction: column;
 }
-.detox{
-    overflow: hidden;
-    min-width: 500px;
-}
-.detox img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .container_proyectos--column p{
     line-height: 30px;
     color: #3d3e40;
@@ -55,9 +47,6 @@
 
 @media only screen and (max-width: 580px){
     .proyectos{
-        min-width: 90%;
-    }
-    .detox{
         min-width: 90%;
     }
     .container_proyectos{
